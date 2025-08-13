@@ -32,12 +32,12 @@ Export Talend Cloud catalog and Observability executions to CSV, **combine incre
 
 3. **Adjust working paths** in `run_delta.cmd` / `run_full.cmd` (`WORKDIR`).
 
-4. **Run incremental** (recommended for daily/regular usage):
+4. **Run incremental** (recommended for daily/regular usage - remove the rem from the echo at the first line):
 
    ```bat
    run_delta.cmd
 
-5. **Run full** (occasionally, with cleanup of state files):
+5. **Run full** (occasionally, with cleanup of state files - remove the rem from the echo at the first line):
 
    ```bat
    run_full.cmd
