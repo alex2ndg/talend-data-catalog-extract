@@ -1,4 +1,5 @@
-rem @echo off
+REM Talend-Qlik launch script
+@echo off
 setlocal
 chcp 65001 >NUL
 
